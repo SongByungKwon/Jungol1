@@ -12,6 +12,4 @@ public class Main {
 		System.out.print("Your height is "+height+"cm.");
 	
 	}
-	
-
 }
