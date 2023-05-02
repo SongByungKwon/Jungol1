@@ -8,12 +8,12 @@ public class Main {
       Scanner sc = new Scanner(System.in);
       double d = sc.nextDouble();
       double o = sc.nextDouble();
-      String c = sc.next();
+      char c = sc.next().charAt(0);
       sc.close();
       
       System.out.printf("%.2f\n", d);
       System.out.printf("%.2f\n", o);
-      System.out.printf("%s\n", c);
+      System.out.printf("%c\n", c);
 
    }
 
