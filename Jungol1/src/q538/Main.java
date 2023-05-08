@@ -16,7 +16,7 @@ public class Main {
 			else if(num<0) {
 				System.out.println("negative number");
 			}
-			else if(num==0){
+			else {
 				break;
 			}
 		}
