@@ -8,27 +8,40 @@ public class Main {
 		Scanner sc =new Scanner(System.in);
 		char c = sc.next().charAt(0);
 		int num = sc.nextInt();
-		sc.close();
-		
+//		sc.close();
+//		
+//		if(c=='M') {
+//			if(num >=18) {
+//				System.out.println("MAN");
+//			}
+//			else {
+//				System.out.println("BOY");
+//			}
+//				
+//		}
+//		else if(c=='F'){
+//			if(num >=18) {
+//				System.out.println("WOMAN");
+//			}
+//			else {
+//				System.out.println("GIRL");
+//			}
+//			
+//		}
+//
+//	}
+//
+//}
+
+
 		if(c=='M') {
-			if(num >=18) {
-				System.out.println("MAN");
-			}
-			else {
-				System.out.println("BOY");
-			}
-				
+		String a=(num>=18)?"MAN":"BOY";
+		System.out.printf("%s",a);
 		}
-		else if(c=='F'){
-			if(num >=18) {
-				System.out.println("WOMAN");
-			}
-			else {
-				System.out.println("GIRL");
-			}
-			
+		else {
+			String a=(num>=18)?"WOMAN":"GIRL";
+			System.out.printf("%s",a);
 		}
-
+		sc.close();
 	}
-
 }
