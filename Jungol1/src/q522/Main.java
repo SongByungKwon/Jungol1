@@ -21,19 +21,19 @@ public class Main {
 //			cut=!cut;
 //			System.out.println(cut);
 //		}
-		
-		if(num1== num2) {
-			System.out.println("true");
-		}
-		else {
-			System.out.println("false");
-		}
-		if(num1!= num2) {
-			System.out.println("true");
-		}
-		else {
-			System.out.println("false");
-		}
+//		
+//		if(num1== num2) {
+//			System.out.println("true");
+//		}
+//		else {
+//			System.out.println("false");
+//		}
+//		if(num1!= num2) {
+//			System.out.println("true");
+//		}
+//		else {
+//			System.out.println("false");
+//		}
 		
 		
 		
@@ -45,6 +45,12 @@ public class Main {
 //			System.out.println(0);
 //			System.out.println(1);
 //		}
+		boolean a = (num1==num2) ? true:false;
+		System.out.println(a);
+		a = (num1!=num2) ? true:false;
+		System.out.println(a);
+		
 	}
 
 }
+
