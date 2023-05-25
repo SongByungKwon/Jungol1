@@ -36,11 +36,8 @@ class P {
 			System.out.println("name : "+name[2]);
 			System.out.println("tel : "+tel[2]);
 			System.out.println("addr : "+addr[2]);
-
 		}
-
 	}
-
 }
 
 
