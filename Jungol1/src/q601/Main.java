@@ -13,10 +13,9 @@ public class Main {
 		for (int i = 0; i < str.length(); i++) {
 			c[i] = str.charAt(i);
 		}
-		
-		
+
 		sc.close();
-		for (int k = 0; k < str.length(); k++) {
+		for (int k = 0; k < str.length(); k++) { // 횟수
 			for (int i = str.length() - 1; i >= 0; i--) {
 				if (i == str.length() - 1) {
 					cg = c[i];
@@ -33,8 +32,6 @@ public class Main {
 			}
 			System.out.println();
 		}
-		
-		
 
 	}
 
